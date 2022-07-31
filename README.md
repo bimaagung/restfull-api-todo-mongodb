@@ -11,11 +11,9 @@
 2. Install package `npm install`
 3. Configuration file `.env`
 
-```json
-HOST = localhost
+````HOST = localhost
 PORT = 27017
-DATABASE = todo
-```
+DATABASE = todo```
 
 4. Run project in terminal `npm run start` or `npm run start-dev`
 
@@ -37,7 +35,7 @@ Request :
   "title": "string",
   "body": "string"
 }
-```
+````
 
 Response :
 
