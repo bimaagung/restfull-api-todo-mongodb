@@ -1,4 +1,4 @@
-### Tech :
+### Requirement :
 
 - Node JS
 - Express JS
