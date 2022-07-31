@@ -6,7 +6,7 @@ mongoose.Promise = global.Promise;
 const db = {
   mongoose: mongoose,
   url: config.url,
-  note_model: require('./note.model')(mongoose),
+  notes: require('./note.model')(mongoose),
 };
 
 module.exports = db;

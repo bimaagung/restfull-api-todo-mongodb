@@ -9,13 +9,13 @@ const NoteModel = (mongoose) => {
     },
   );
 
-  schema.method('toJson', function () {
-    const { _v, _id, ...object } = this.toObject();
+  schema.method('toJSON', function () {
+    const { __v, _id, ...object } = this.toObject();
     object.id = _id;
     return object;
   });
 
-  const Note = mongoose.model('note', schema);
+  const Note = mongoose.model('notes', schema);
 
   return Note;
 };
