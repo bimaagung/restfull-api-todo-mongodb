@@ -1,0 +1,23 @@
+{
+  "name": "todo-mongodb",
+  "version": "1.0.0",
+  "description": "Application for try use mongo db",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bimaagung/todo-mongodb.git"
+  },
+  "keywords": [
+    "mongodb",
+    "todo"
+  ],
+  "author": "Bima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bimaagung/todo-mongodb/issues"
+  },
+  "homepage": "https://github.com/bimaagung/todo-mongodb#readme"
+}
