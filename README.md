@@ -11,7 +11,7 @@
 2. Install package `npm install`
 3. Configuration file `.env`
 
-````HOST = localhost
+```HOST = localhost
 PORT = 27017
 DATABASE = todo```
 
