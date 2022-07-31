@@ -5,19 +5,19 @@
 - MongoDB
 - Mongoose
 
+
 ## Installation :
 
 1. Clone project `git clone https://github.com/bimaagung/todo-mongodb.git`
 2. Install package `npm install`
 3. Configuration file `.env`
-
 ```
 HOST = localhost
 PORT = 27017
 DATABASE = todo
 ```
-
 4. Run project in terminal `npm run start` or `npm run start-dev`
+
 
 ## API Spech
 
