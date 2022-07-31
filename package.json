@@ -2,9 +2,11 @@
   "name": "todo-mongodb",
   "version": "1.0.0",
   "description": "Application for try use mongo db",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "start-dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +21,13 @@
   "bugs": {
     "url": "https://github.com/bimaagung/todo-mongodb/issues"
   },
-  "homepage": "https://github.com/bimaagung/todo-mongodb#readme"
+  "homepage": "https://github.com/bimaagung/todo-mongodb#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
 }
