@@ -9,7 +9,15 @@
 
 1. Clone project `git clone https://github.com/bimaagung/todo-mongodb.git`
 2. Install package `npm install`
-3. Run project in terminal `npm run start` or `npm run start-dev`
+3. Configuration file `.env`
+
+```json
+HOST = localhost
+PORT = 27017
+DATABASE = todo
+```
+
+4. Run project in terminal `npm run start` or `npm run start-dev`
 
 ### API Spech
 
