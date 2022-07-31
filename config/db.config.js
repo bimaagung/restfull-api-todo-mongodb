@@ -1,10 +1,13 @@
 const mongoose = require('mongoose');
+const { HOST, PORT, DATABASE } = process.env;
+
+console.log(process.env.HOST);
 
 mongoose.Promise = global.Promise;
 
 const db_config = {
   mongoose: mongoose,
-  url: 'mongodb://localhost:27017/todo',
+  url: `mongodb://${HOST}:${PORT}/${DATABASE}`,
 };
 
 db_config.mongoose
