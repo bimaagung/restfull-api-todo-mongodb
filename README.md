@@ -1,11 +1,11 @@
-### Requirement :
+## Requirement :
 
 - Node JS
 - Express JS
 - MongoDB
 - Mongoose
 
-### Installation :
+## Installation :
 
 1. Clone project `git clone https://github.com/bimaagung/todo-mongodb.git`
 2. Install package `npm install`
@@ -19,7 +19,7 @@ DATABASE = todo
 
 4. Run project in terminal `npm run start` or `npm run start-dev`
 
-### API Spech
+## API Spech
 
 #### Create Note
 
