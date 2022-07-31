@@ -17,6 +17,7 @@ const NoteModel = (mongoose) => {
 
   const Note = mongoose.model('notes', schema);
 
+  console.log(Note);
   return Note;
 };
 
